@@ -1,0 +1,91 @@
+ #uname{
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    margin: 15px auto;
+    background-color: skyblue;  
+}
+#uname:hover{
+    background-color: palegreen;
+}
+.para1{
+    position: relative;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 400px;
+    text-align: center;
+    background-color:lightsteelblue;
+    box-shadow: 2px 2px 2px 10px turquoise;
+    
+}
+#uname2{
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: steelblue;
+}
+#uname3{
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: steelblue;
+}
+#uname4
+{
+    padding: 10px;
+    border-width: 10px;
+    background-color: slateblue;
+}
+#uname2:hover{
+    background-color: navajowhite;
+}
+#uname3:hover{
+    background-color: navajowhite;
+}
+#name{
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    margin: 25px auto;
+    background-color: skyblue;
+}
+#dob{
+    border-style: ridge;
+    background-color:lightsteelblue;
+}
+#no{
+    background-color: burlywood;
+}
+#age{
+padding: 10px;
+width: 30%;
+border-radius: 20px;
+border-style: double;
+border-width: 10px;
+margin: 15px auto;
+background-color: skyblue;
+}
+#email{
+padding: 10px;
+width: 40%;
+border-radius: 20px;
+border-style: double;
+border-width: 10px;
+margin: 15px auto;
+background-color: skyblue;
+}
+#number{
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    margin: 15px auto;
+    background-color: skyblue;
+}

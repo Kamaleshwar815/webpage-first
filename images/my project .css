@@ -1,0 +1,28 @@
+.header{
+padding-bottom: 1px;
+    
+}
+ul li{
+    margin: 20px;
+    padding: 25px;
+}
+
+ ul li a:hover{
+     color:blue;
+
+}
+ul li {
+    display: inline-block;
+    margin: 8px;
+    padding: 7px 7px;    
+border-radius: 8%;
+border:1px solid blue;
+padding: 7px;;
+
+}
+.search{
+   margin-left: 80%;
+}
+
+
+

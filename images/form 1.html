@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+   <div class="container-fluid well">
+        <div class="col-sm-12">
+            <div class="col-lg-offset-2 col-md-8 col-lg-offset-2">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="id" class="form-label">Enter your ID</label>
+                        <input type="text" name="id" id="id" class="form-control">
+                        <p id="idErr"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="form-label">Enter your Name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                        <p id="nameErr"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age" class="form-label">Enter your Age</label>
+                        <input type="text" name="age" id="age" class="form-control"  onblur="ageValidation()">
+                        <p id="ageErr"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact" class="form-label">Enter your Contact</label>
+                        <input type="text" name="contact" id="contact" class="form-control">
+                        <p id="contactErr"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact" class="form-label">Enter your email</label>
+                        <input type="text" name="email" id="email" class="form-control">
+                        <p id="emailErr"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact" class="form-label">Enter your state </label>
+                        <input type="text" name="state" id="state" class="form-control">
+                        <p id="stateErr"></p>
+                    </div>
+                    <div class="btns">
+                        <button type="reset" class="btn btn-warning" style="margin-right: 10px;">Reset</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

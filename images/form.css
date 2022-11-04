@@ -1,0 +1,11 @@
+.middle{
+    margin: 0 auto;
+}
+.btns{
+    display: flex;
+    
+    justify-content: center;
+}
+#ageErr{
+    color: red;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<head>
+    <title> form</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="para1">
+    
+    <form action="#" >
+    <label for="uname">USER NAME:</label> &nbsp;<input name="text" name="uname" id="uname"><br><br>
+    <label for="pass">PASSWORD: </label> &nbsp;<input name="text" name="pass"  id="pass"><br><br>
+    <label for="age"> AGE:</label> &nbsp;<input type="number"  name="age"  id="age"> <br><br>
+    <label for="gender">GENDER:</label> &nbsp;<input type="radio" name="gender" id="gender"><label for="gender">MALE</label>
+    <input type="radio" name="gender" id="female"><label for="gender">FEMALE</label><br><br>
+    <label for="email">ENTER YOUR EMAIL:</label> &nbsp;<input type="email" name="email" id="email"><br><br>
+    <label for="phone number">ENTER YOUR PHONE NUMBER:</label> &nbsp;<input type="number" name="number" id="number"><br><br>
+    <label for="course">CHOOSE A COURSE:</label>
+    <input type="checkbox" name="course" value="php">PHP
+    <input type="checkbox" name="course" value="java">JAVA
+    <input type="checkbox" name="course" value="ruby">RUBY
+    <input type="checkbox" name="course" value="python">PYTHON
+    <br><br>
+    <label for="hobbies"> CHOOSE YOUR HOBBY</label>
+    <input list="hobbies" name="hobby" id="hobby">
+    <datalist id="hobbies">
+        <option value="cricket"></option>
+        <option value= "tennis"></option>
+        <option value=" dancing to get relaxed"></option>
+        <option value="listening to music"></option>
+    </datalist> <br><br>   
+    <label for="country">CHOOSE A COUNTRY</label>  
+    <select name="country" id="country" >
+    <option value="us"> AMERICA</option>
+    <option value="ru"> RUSSIA</option>
+    <option value="eu"> EUROPE</option>
+    <option value="uae"> DUBAI</option>
+    <option value="in"> INDIA</option>
+    </select><br><br>
+    <label for="college">CHOOSE A COLLEGE</label>
+    <input list="colleges" name="college" id="college">
+    <datalist id="colleges">
+        <option value= "BISHOP HEBER COLLEGE"</option>
+        <option value= "SARANATHAN COLLEGE"</option>
+        <option value="ST.JOSEPH COLLEGE"</option>
+        <option value="JAMAL COLLEGE"</option>
+        <option value="LOYOLO COLLEGE"</option>
+        <option value="INDIRA GANDHI COLLEGE"</option>
+        <option value="KAVERI COLLEGE OF NURSING"</option>
+        <option value= "SRM INSTITUTE OF TECHNOLOGY"</option>
+    </datalist><br><br>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+    
+    
+</div>
+    </form>
+    </body>
+    </html>
